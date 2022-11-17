@@ -30,4 +30,4 @@ terraform apply
 ## Authors
 
 name: Mohamed Alaa  
-mail: mohamedalaaelsafy@gmail.com
+email: mohamedalaaelsafy@gmail.com

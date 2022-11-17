@@ -1,0 +1,8 @@
+*.json
+*.tfstate
+.terraform.lock.hcl
+*.terraform
+terraform.tfstate.backup
+variables.tf
+ansible/
+.history

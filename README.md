@@ -1,63 +1,33 @@
 # ITI-PROJECT-PYTHON-TERRAFORM
-# Project Title
 
-Simple overview of use/purpose.
+Bulding GCP infrastructure using Terraform.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This code consists of network modules which have one vpc with two main private subnets one for the instance connected through IAP bastion servers and the other for GKE cluster which configured with two node pools where service accounts are attached.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Terraform v1.2+ installed locally.
+* GCP Credentials configured for use with Terraform.
 
-### Installing
+### Installation resources
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* https://www.terraform.io/
+* https://askubuntu.com/questions/983351/how-to-install-terraform-in-ubuntu
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Change your project ID according to yours
 ```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
+terraform init
+terraform plane
+terraform apply
 ```
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+name: Mohamed Alaa  
+mail: mohamedalaaelsafy@gmail.com

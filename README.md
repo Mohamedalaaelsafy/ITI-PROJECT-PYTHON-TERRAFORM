@@ -1,4 +1,4 @@
-# ITI-PROJECT-PYTHON-TERRAFORM
+# TERRAFORM_GCP
 
 Bulding GCP infrastructure using Terraform.
 

@@ -23,7 +23,7 @@ This code consists of network modules which have one vpc with two main private s
 * Change your project ID according to yours
 ```
 terraform init
-terraform plane
+terraform plan
 terraform apply
 ```
 
